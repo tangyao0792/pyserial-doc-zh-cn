@@ -83,17 +83,13 @@ mode, it is advised to use io.TextIOWrapper_::
 
 测试端口
 ========
-Listing ports
--------------
-``python -m serial.tools.list_ports`` will print a list of available ports. It
-is also possible to add a regexp as first argument and the list will only
-include entries that matched.
+列出端口
+--------
+``python -m serial.tools.list_ports`` 会输出一个可用端口的列表。也可以增加一个正则表达式作为第一个参数，这时列表只会包含匹配的条目。
 
 .. note::
 
-    The enumeration may not work on all operating systems. It may be
-    incomplete, list unavailable ports or may lack detailed descriptions of the
-    ports.
+    列举功能不一定在所有操作系统上都工作。列举结果可能不完整，可能列举出不可用的端口，也可能缺少端口的详细描述。
 
 .. versionadded: 2.6
 

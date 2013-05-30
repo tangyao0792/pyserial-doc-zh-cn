@@ -45,7 +45,7 @@ Other pages (online)
 
 要求
 ====
-- Python 2.3 or newer, including Python 3.x
+- Python 2.3或更高，包括Python 3.x
 - ctypes extensions on Windows (is in standard library since Python 2.5+)
 - "Java Communications" (JavaComm) or compatible extension for Java/Jython
 
@@ -60,19 +60,19 @@ This installs a package that can be used from Python (``import serial``).
 To install the module for all users on the system, administrator rights (root)
 is required..
 
-From source (tar.gz or checkout)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Download the archive from http://pypi.python.org/pypi/pyserial.
-Unpack the archive, enter the ``pyserial-x.y`` directory and run::
+从源代码（tar.gz或checkout）
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+从 http://pypi.python.org/pypi/pyserial 下载压缩包。
+解压，进入``pyserial-x.y``目录并运行::
 
     python setup.py install
 
-For Python 3.x::
+对于Python 3.x::
 
     python3 setup.py install
 
-From PyPI
-~~~~~~~~~
+从PyPI
+~~~~~~
 Alternatively it can be installed from PyPI, either manually downloading the
 files and installing as described above or using::
 
