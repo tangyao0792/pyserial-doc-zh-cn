@@ -1,6 +1,6 @@
-==========
- Appendix
-==========
+=====
+ 附录
+=====
 
 How To
 ======
@@ -72,15 +72,15 @@ User supplied URL handlers
     starting from pySerial V2.6.
 
 
-Related software
-================
+相关软件
+========
 
 com0com - http://com0com.sourceforge.net/
     Provides virtual serial ports for Windows.
 
 
-License
-=======
+许可协议
+========
 
 Copyright (C) 2001-2011 Chris Liechti <cliechti(at)gmx.net>;
 All Rights Reserved.

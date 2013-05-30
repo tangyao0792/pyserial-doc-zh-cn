@@ -1,9 +1,9 @@
-====================
- Short introduction
-====================
+=========
+ 简短介绍
+=========
 
-Opening serial ports
-====================
+打开串行端口
+============
 
 Open port 0 at "9600,8,N,1", no timeout::
 
@@ -81,8 +81,8 @@ mode, it is advised to use io.TextIOWrapper_::
 .. _io.TextIOWrapper: http://docs.python.org/library/io.html#io.TextIOWrapper
 
 
-Testing ports
-=============
+测试端口
+========
 Listing ports
 -------------
 ``python -m serial.tools.list_ports`` will print a list of available ports. It

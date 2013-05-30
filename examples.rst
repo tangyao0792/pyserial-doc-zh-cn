@@ -1,8 +1,8 @@
 .. _examples:
 
-==========
- Examples
-==========
+=====
+ 示例
+=====
 
 .. _miniterm:
 
@@ -103,8 +103,8 @@ setup-miniterm-py2exe.py_
 .. _setup-miniterm-py2exe.py: http://pyserial.svn.sourceforge.net/viewvc/*checkout*/pyserial/trunk/pyserial/examples/setup-miniterm-py2exe.py
 
 
-TCP/IP - serial bridge
-======================
+TCP/IP - 串行桥接
+=================
 This program opens a TCP/IP port. When a connection is made to that port (e.g.
 with telnet) it forwards all data to the serial port and vice versa.
 
@@ -170,8 +170,8 @@ tcp_serial_redirect.py_
 
 .. _tcp_serial_redirect.py: http://pyserial.svn.sourceforge.net/viewvc/*checkout*/pyserial/trunk/pyserial/examples/tcp_serial_redirect.py
 
-Single-port TCP/IP - serial bridge (RFC 2217)
-=============================================
+单端口TCP/IP - 串行桥接（RFC 2217）
+===================================
 Simple cross platform :rfc:`2217` serial port server. It uses threads and is
 portable (runs on POSIX, Windows, etc).
 
@@ -212,8 +212,8 @@ setup-rfc2217_server-py2exe.py_
 .. _setup-rfc2217_server-py2exe.py: http://pyserial.svn.sourceforge.net/viewvc/*checkout*/pyserial/trunk/pyserial/examples/setup-rfc2217_server-py2exe.py
 
 
-Multi-port TCP/IP - serial bridge (RFC 2217)
-============================================
+多端口TCP/IP - 串行桥接（RFC 2217）
+===================================
 This example implements a TCP/IP to serial port service that works with
 multiple ports at once. It uses select, no threads, for the serial ports and
 the network sockets and therefore runs on POSIX systems only.
@@ -261,8 +261,8 @@ port_publisher.sh_
 .. _port_publisher.sh: http://pyserial.svn.sourceforge.net/viewvc/*checkout*/pyserial/trunk/pyserial/examples/port_publisher.sh
 
 
-wxPython examples
-=================
+wxPython示例
+============
 A simple terminal application for wxPython and a flexible serial port
 configuration dialog are shown here.
 
@@ -289,8 +289,8 @@ setup-wxTerminal-py2exe.py_
 .. _setup-wxTerminal-py2exe.py: http://pyserial.svn.sourceforge.net/viewvc/*checkout*/pyserial/trunk/pyserial/examples/setup-wxTerminal-py2exe.py
 
 
-Wrapper class
-=============
+包装类
+======
 This example provides a subclass based on ``Serial`` that has an alternative
 implementation of ``readline()``
 
@@ -300,8 +300,8 @@ enhancedserial.py_
 .. _enhancedserial.py: http://pyserial.svn.sourceforge.net/viewvc/*checkout*/pyserial/trunk/pyserial/examples/enhancedserial.py
 
 
-Unit tests
-==========
+单元测试
+========
 The project uses a number of unit test to verify the functionality. They all
 need a loop back connector. The scripts itself contain more information. All
 test scripts are contained in the directory ``test``.

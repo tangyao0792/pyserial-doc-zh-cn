@@ -4,8 +4,8 @@
 
 .. module:: serial
 
-Classes
-=======
+类
+==
 
 Native ports
 ------------
@@ -679,8 +679,8 @@ others by the base class mentioned above.
    :rfc:`2217` - Telnet Com Port Control Option
 
 
-Exceptions
-==========
+异常
+====
 
 .. exception:: SerialException
 
@@ -694,8 +694,8 @@ Exceptions
     Exception that is raised on write timeouts.
 
 
-Constants
-=========
+常量
+====
 
 *Parity*
 
@@ -739,8 +739,8 @@ Module version:
     .. versionadded:: 2.3
 
 
-Module functions and attributes
-===============================
+模块函数和属性
+==============
 
 .. function:: device(number)
 
@@ -906,8 +906,8 @@ Examples:
 - ``loop://logging=debug``
 - ``hwgrep://0451:f432`` (USB VID:PID)
 
-Tools
-=====
+工具
+====
 
 
 serial.tools.list_ports

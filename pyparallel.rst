@@ -4,8 +4,8 @@
 
 .. note:: This module is in development (since years ;-)
 
-Overview
-========
+概览
+====
 This module encapsulates the access for the parallel port. It provides backends
 for Python running on Windows and Linux. Other platforms are possible too but
 not yet integrated.
@@ -20,21 +20,21 @@ Here is the `project page on SourceForge`_ and here is the `SVN repository`_.
 .. _`SVN repository`: http://sourceforge.net/svn/?group_id=46487
 
 
-Features
---------
+特性
+----
 * same class based interface on all supported platforms
 * port numbering starts at zero, no need to know the port name in the user program
 * port string (device name) can be specified if access through numbering is inappropriate
 
 
-Requirements
-------------
+要求
+----
 * Python 2.2 or newer
 * "Java Communications" (JavaComm) extension for Java/Jython
 
 
-Installation
-------------
+安装
+----
 Extract files from the archive, open a shell/console in that directory and let
 Distutils do the rest: ``python setup.py install``
 
@@ -47,8 +47,8 @@ either MSVC or GCC/mingw32.
 It is released under a free software license, see LICENSE.txt for more details.
 
 
-Short introduction
-==================
+简短介绍
+========
 ::
 
     >>> import parallel
@@ -56,8 +56,8 @@ Short introduction
     >>> p.setData(0x55)
 
 
-Examples
---------
+示例
+----
 Please look in the SVN Repository. There is an example directory where you can
 find a simple terminal and more.
 http://pyserial.svn.sourceforge.net/viewvc/pyserial/trunk/pyparallel/examples/
@@ -129,8 +129,8 @@ API
     for tests and simulations without real hardware.
 
 
-Notes
-=====
+注意事项
+========
 
 Linux
 -----
@@ -154,10 +154,10 @@ The giveio driver must be installed as the module needs direct access to the
 hardware. This also means that USB parallel port adapters won't be supported.
 
 
-Misc
+杂项
 ====
-References
-----------
+参考
+----
 * Python: http://www.python.org/
 * Jython: http://www.jython.org/
 * Java@IBM: http://www-106.ibm.com/developerworks/java/jdk/ (JavaComm links are

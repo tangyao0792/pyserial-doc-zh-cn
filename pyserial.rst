@@ -2,8 +2,8 @@
  pySerial
 ==========
 
-Overview
-========
+概览
+====
 This module encapsulates the access for the serial port. It provides backends
 for Python running on Windows, Linux, BSD (possibly any POSIX compliant
 system), Jython and IronPython (.NET and Mono). The module named "serial"
@@ -27,8 +27,8 @@ Other pages (online)
 .. _`Download Page`: http://sourceforge.net/project/showfiles.php?group_id=46487
 
 
-Features
-========
+特性
+====
 - Same class based interface on all supported platforms.
 - Access to the port settings through Python properties.
 - Support for different byte sizes, stop bits, parity and flow control with
@@ -43,15 +43,15 @@ Features
 - RFC 2217 client (experimental), server provided in the examples.
 
 
-Requirements
-============
+要求
+====
 - Python 2.3 or newer, including Python 3.x
 - ctypes extensions on Windows (is in standard library since Python 2.5+)
 - "Java Communications" (JavaComm) or compatible extension for Java/Jython
 
 
-Installation
-============
+安装
+====
 
 pyserial
 --------
@@ -98,8 +98,8 @@ Windows
 .. _PyPi: http://pypi.python.org/pypi/pyserial
 
 
-References
-==========
+参考
+====
 * Python: http://www.python.org/
 * Jython: http://www.jython.org/
 * Java@IBM: http://www-106.ibm.com/developerworks/java/jdk/ (JavaComm links are
@@ -109,8 +109,8 @@ References
 * setuptools: http://peak.telecommunity.com/DevCenter/setuptools
 
 
-Older Versions
-==============
+旧版本
+======
 Older versions are still available on the `Download Page`_. pySerial 1.21 is
 compatible with Python 2.0 on Windows, Linux and several un*x like systems,
 MacOSX and Jython.
